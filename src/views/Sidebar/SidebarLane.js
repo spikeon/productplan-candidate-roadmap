@@ -5,15 +5,15 @@ import {Types} from "../../shared/DragAndDrop";
 
 export const SidebarLane = (props) => {
     const [{isDragging}, drag] = useDrag({
-        item : {
+        item: {
             id: "add",
             type: Types.LANE
         },
         end: (item, monitor) => {
             const dropResult = monitor.getDropResult();
-            if(dropResult === undefined || dropResult === null || !dropResult.hasOwnProperty("newIndex")) return;
+            if (dropResult === undefined || dropResult === null || !dropResult.hasOwnProperty("newIndex")) return;
 
-            if(props.step.includes("init")){
+            if (props.step.includes("init")) {
                 props.changeStep("laneAdded");
             }
 
@@ -21,14 +21,14 @@ export const SidebarLane = (props) => {
         },
         collect: monitor => {
             return {
-                isDragging : monitor.isDragging()
+                isDragging: monitor.isDragging()
             }
         }
     });
     let className = "drag drag_lane " + (isDragging ? "active" : "");
     return (
         <div ref={drag} className={className}>
-            <FontAwesomeIcon icon={faGripLines} />
+            <FontAwesomeIcon icon={faGripLines}/>
             Add lane
         </div>
     );

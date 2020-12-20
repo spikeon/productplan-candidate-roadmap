@@ -2,9 +2,11 @@ import {Lane} from "../Lane/Lane";
 import "./Lanes.scss"
 import {useDrop} from "react-dnd";
 import {Types} from "../../shared/DragAndDrop";
+import {faCircle, faDotCircle} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export function Lanes(props) {
-    const [{ canDrop }, drop] = useDrop({
+    const [{canDrop}, drop] = useDrop({
         accept: Types.LANE,
         drop: () => {
             return {
@@ -25,7 +27,7 @@ export function Lanes(props) {
             lane={lane}
             editBar={props.editBar}
             removeBar={props.removeBar}
-            />
+        />
     ));
 
     const dates = [];
@@ -60,10 +62,10 @@ export function Lanes(props) {
 
         dates.push(<div className="date">{date}</div>)
 
-        dots.push(<div className="dot">·</div>)
+        dots.push(<div className="dot"><FontAwesomeIcon icon={faCircle} size={6}/></div>)
     }
 
-    let className = "lanes " + ( canDrop ? "active" : "" );
+    let className = "lanes " + (canDrop ? "active" : "");
 
     return (
         <div className="timeline_container">

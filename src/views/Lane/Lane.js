@@ -7,7 +7,7 @@ import {faArrowDown, faCaretDown, faCaretRight} from "@fortawesome/free-solid-sv
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export function Lane(props) {
-    const [{ canDrop }] = useDrop({
+    const [{canDrop}] = useDrop({
         accept: Types.BAR,
         drop: () => {
             console.log(props);
@@ -52,7 +52,7 @@ export function Lane(props) {
                 blockedMonths--;
                 let width = 3;
                 let className = "hover_bar bar width" + width;
-                currentBar = <div className={className}></div>;
+                currentBar = <div className={className} />;
             }
 
             cells.push(
@@ -75,7 +75,7 @@ export function Lane(props) {
         rowElements.push(<div key={"row_" + row} className="row">{rows[row]}</div>)
     }
 
-    let rowsClass = "rows " + (canDrop ? "active" : "" );
+    let rowsClass = "rows " + (canDrop ? "active" : "");
 
     let isOpen = true;
     let displayIcon = isOpen ? faCaretDown : faCaretRight;

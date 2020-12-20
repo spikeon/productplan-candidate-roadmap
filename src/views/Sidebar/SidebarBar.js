@@ -13,9 +13,9 @@ export const SidebarBar = (props) => {
         },
         end: (item, monitor) => {
             const dropResult = monitor.getDropResult();
-            if(dropResult === undefined || dropResult === null || !dropResult.hasOwnProperty("laneName")) return;
+            if (dropResult === undefined || dropResult === null || !dropResult.hasOwnProperty("laneName")) return;
 
-            if(props.step.includes("laneAdded")){
+            if (props.step.includes("laneAdded")) {
                 props.changeStep("barAdded");
             }
 
@@ -24,27 +24,24 @@ export const SidebarBar = (props) => {
                 .then((result) => {
                     if (!result) {
                         return props.addBar(dropResult.laneName, dropResult.row, barName, dropResult.month, dropResult.year, 2)
-                    }
-                    else return true;
+                    } else return true;
 
                 })
                 .then((result) => {
                     if (result !== true) {
                         return props.addBar(dropResult.laneName, dropResult.row, barName, dropResult.month, dropResult.year, 1)
-                    }
-                    else return true;
+                    } else return true;
                 })
                 .then((result) => {
                     if (result !== true) {
                         console.log("Failed to add new bar");
-                    }
-                    else return true;
+                    } else return true;
                 })
 
         },
         collect: monitor => {
             return {
-                isDragging : monitor.isDragging()
+                isDragging: monitor.isDragging()
             }
         }
 

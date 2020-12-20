@@ -1,5 +1,5 @@
 import {Component} from "react";
-import {FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import "./Header.scss"
 import logo from "../../Resources/logo.png"
 import {faSearch} from "@fortawesome/free-solid-svg-icons";

@@ -5,20 +5,17 @@
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 400;
-  src:
-          local('Gilroy'),
-          url("./Resources/Radomir Tinkov - Gilroy-Medium.otf");
+  src: local('Gilroy'),
+  url("./Resources/Radomir Tinkov - Gilroy-Medium.otf");
 }
 
 @font-face {
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 700;
-  src:
-          local('Gilroy'),
-          url("./Resources/Radomir Tinkov - Gilroy-Bold.otf");
+  src: local('Gilroy'),
+  url("./Resources/Radomir Tinkov - Gilroy-Bold.otf");
 }
-
 
 
 body {
@@ -35,5 +32,5 @@ html, body, #root {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }

@@ -2,56 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23a99aa6-f793-46cc-aa1b-9fb7e03cd762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Resources/Radomir Tinkov - Gilroy-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/Radomir Tinkov - Gilroy-Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/add-bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/add-lane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/DragAndDrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/MockTimelineService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/Timeline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/Timeline.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Bar/Bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Bar/Bar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Cell/Cell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Cell/Cell.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Lane/Lane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Lane/Lane.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Lanes/Lanes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Lanes/Lanes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/PageHeader/PageHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/PageHeader/PageHeader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Sidebar/Sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Sidebar/SidebarBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Sidebar/SidebarLane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTipData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTipItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/MockTimelineService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/MockTimelineService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Timeline.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Timeline.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/App/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Bar/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Bar/Bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Cell/Cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Cell/Cell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Lane/Lane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Lane/Lane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Lane/Lane.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Lane/Lane.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Lanes/Lanes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Lanes/Lanes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Lanes/Lanes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Lanes/Lanes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/PageHeader/PageHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PageHeader/PageHeader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Sidebar/Sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Sidebar/Sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Sidebar/SidebarBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Sidebar/SidebarBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Sidebar/SidebarLane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Sidebar/SidebarLane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ToolTip/ToolTip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ToolTip/ToolTip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ToolTip/ToolTipData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTipData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +55,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="ts.external.directory.path" value="C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -160,8 +134,23 @@
       <workItem from="1608017631509" duration="7305000" />
       <workItem from="1608065601240" duration="10209000" />
       <workItem from="1608265904231" duration="5500000" />
-      <workItem from="1608439319273" duration="2845000" />
+      <workItem from="1608439319273" duration="3689000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding changes">
+      <created>1608442236079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608442236079</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding changes">
+      <created>1608442245311</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608442245311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +167,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding changes" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

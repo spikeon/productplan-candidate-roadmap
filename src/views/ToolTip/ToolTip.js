@@ -22,6 +22,6 @@ export function ToolTip(props) {
             props.changeStep(props.step + "Closed");
         }}>Got it
         </div>
-        <div className="triangle"></div>
+        <div className="triangle"/>
     </div>;
 }

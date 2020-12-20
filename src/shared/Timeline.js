@@ -60,8 +60,8 @@ export class TimelineLane {
         return false;
     }
 
-    editBar(oldName, row, name, startMonth, startYear, months = 3){
-        if(this.removeBar(oldName)) {
+    editBar(oldName, row, name, startMonth, startYear, months = 3) {
+        if (this.removeBar(oldName)) {
             return this.addBar(row, name, startMonth, startYear, months);
         } else {
             return false;

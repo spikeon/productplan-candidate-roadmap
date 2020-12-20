@@ -23,16 +23,16 @@ export default class TimelineService {
         return true;
     }
 
-    async removeLane(laneName){
+    async removeLane(laneName) {
         let timeline = timelineStore.slice();
         let removeIndex = null;
         for (let lane in timeline) {
-            if (timeline[lane].name === laneName){
+            if (timeline[lane].name === laneName) {
                 removeIndex = lane;
                 break;
             }
         }
-        if(removeIndex !== null) {
+        if (removeIndex !== null) {
             timeline.splice(removeIndex, 1);
             return true;
         }
@@ -46,13 +46,13 @@ export default class TimelineService {
             if (timeline[lane].name === oldLaneName) laneIndex = lane;
         }
 
-        if(laneIndex === null) {
+        if (laneIndex === null) {
             // Lane not found
             return false;
         }
         let lane = timeline[laneIndex].slice();
         lane.name = newLaneName;
-        if(laneIndex !== index) {
+        if (laneIndex !== index) {
             // Same position
             timeline.splice(laneIndex, 1);
             timeline.splice(index, 0, lane);
@@ -65,7 +65,7 @@ export default class TimelineService {
 
         return this.getLane(laneName).then(
             (lane) => {
-                if(lane == null) return null;
+                if (lane == null) return null;
                 return lane.addBar(rowNum, name, startMonth, startYear, months)
             }
         );
@@ -76,23 +76,22 @@ export default class TimelineService {
     }
 
     async editBar(oldLaneName, oldName, laneName, rowNum, name, startMonth, startYear, months = 3) {
-        if(laneName === oldLaneName){
+        if (laneName === oldLaneName) {
             return this.getLane(laneName).editBar(oldLaneName, oldName, laneName, rowNum, name, startMonth, startYear, months);
-        }
-        else {
+        } else {
             await this.getLane(oldLaneName).removeBar(oldName).then((success) => {
-                if(success) return this.getLane(laneName).addBar(rowNum, name, startMonth, startYear, months);
+                if (success) return this.getLane(laneName).addBar(rowNum, name, startMonth, startYear, months);
                 else return null;
             });
         }
 
     }
 
-    async removeBar(laneName, barName){
+    async removeBar(laneName, barName) {
         return this.getLane(laneName).removeBar(barName);
     }
 
-    async canPlaceBar(laneName, rowNum, startMonth, startYear){
+    async canPlaceBar(laneName, rowNum, startMonth, startYear) {
         return this.getLane(laneName).checkRowPositionAvailableDate(rowNum, startMonth, startYear)
     }
 }

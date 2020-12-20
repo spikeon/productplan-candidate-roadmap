@@ -4,19 +4,19 @@ import {Types} from "../../shared/DragAndDrop";
 
 export function Bar(props) {
     const [{isDragging}, drag] = useDrag({
-        item : {
+        item: {
             id: props.bar.name,
             type: Types.BAR
         },
         end: (item, monitor) => {
             const dropResult = monitor.getDropResult();
-            if(dropResult === undefined || dropResult === null || !dropResult.hasOwnProperty("laneName")) return; //props.removeBar(props.bar.laneName, props.bar.name);
+            if (dropResult === undefined || dropResult === null || !dropResult.hasOwnProperty("laneName")) return;
             // I was hoping to get this working before turning this in but I have run out of time
             // props.editBar(props.bar.laneName, props.bar.name, dropResult.laneName, dropResult.row, props.bar.name, props.bar.startMonth, props.bar.startYear, props.bar.months)
         },
         collect: monitor => {
             return {
-                isDragging : monitor.isDragging()
+                isDragging: monitor.isDragging()
             }
         }
 

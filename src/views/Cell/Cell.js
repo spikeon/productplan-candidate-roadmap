@@ -4,7 +4,7 @@ import {useDrop} from "react-dnd";
 import {Types} from "../../shared/DragAndDrop";
 
 export function Cell(props) {
-    const [{ canDrop, isOver }, drop] = useDrop({
+    const [{canDrop, isOver}, drop] = useDrop({
         accept: Types.BAR,
         drop: () => {
             console.log(props);
