@@ -1,8 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager">
+  <component name="ChangeListManager">
+    <list default="true" id="23a99aa6-f793-46cc-aa1b-9fb7e03cd762" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Resources/Radomir Tinkov - Gilroy-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/Radomir Tinkov - Gilroy-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/add-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/add-lane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/DragAndDrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/MockTimelineService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Timeline.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Bar/Bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Bar/Bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Cell/Cell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Cell/Cell.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Header/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Lane/Lane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Lane/Lane.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Lanes/Lanes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Lanes/Lanes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/PageHeader/PageHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/PageHeader/PageHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Sidebar/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Sidebar/Sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Sidebar/SidebarBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Sidebar/SidebarLane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTipData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ToolTip/ToolTipItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lLUL1hY7FDK13149YGfYxXO7Pa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\productplan-candidate-roadmap\src\Resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\productplan-candidate-roadmap\src\Resources" />
+      <recent name="D:\dev\productplan-candidate-roadmap\src\views" />
+      <recent name="D:\dev\productplan-candidate-roadmap\src\Sidebar" />
+      <recent name="D:\dev\productplan-candidate-roadmap\src\App" />
+      <recent name="D:\dev\productplan-candidate-roadmap\src\Block" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Test validation of bars into rows" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Timeline.test.js" />
+      <test-names>
+        <test-name value="Test validation of bars into rows" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Timeline.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.Test validation of bars into rows" />
+        <item itemvalue="Jest.renders learn react link" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23a99aa6-f793-46cc-aa1b-9fb7e03cd762" name="Default Changelist" comment="" />
+      <created>1607375806648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607375806648</updated>
+      <workItem from="1607375807877" duration="19029000" />
+      <workItem from="1607589236396" duration="2208000" />
+      <workItem from="1607723756946" duration="33000" />
+      <workItem from="1607825206637" duration="7202000" />
+      <workItem from="1608017631509" duration="7305000" />
+      <workItem from="1608065601240" duration="10209000" />
+      <workItem from="1608265904231" duration="5500000" />
+      <workItem from="1608439319273" duration="2845000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="js.build_tools.npm">
+        <watch expression="App.getState(&quot;timeline&quot;)" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

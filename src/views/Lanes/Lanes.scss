@@ -1,0 +1,47 @@
+.timeline_container {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #E4E6E8;
+  height: 100%;
+
+  .dates {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 12px;
+
+    .date {
+      width: calc((100% - 14px) / 12);
+      color: #aaa;
+    }
+  }
+
+  .dots {
+    display: flex;
+    padding-left: 10px;
+
+    .dot {
+      width: calc((100% - 14px) / 12);
+      color: #aaa;
+      font-size: 40px;
+      line-height: 10px;
+    }
+  }
+
+  .lanes {
+    overflow-x: hidden;
+    .drop_here {
+      margin-top: 20px;
+      display: none;
+      height: 100px;
+      background-color: white;
+      color: #333;
+      text-align: center;
+      font-size: 24px;
+      line-height: 100px;
+    }
+
+    &.active .drop_here {
+      display: block;
+    }
+  }
+}

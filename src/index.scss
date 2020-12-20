@@ -1,0 +1,39 @@
+// Not sure why Gilroy was in the resources folder, I couldn't find it in use in the project.
+// I added an import for it anyways.
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  src:
+          local('Gilroy'),
+          url("./Resources/Radomir Tinkov - Gilroy-Medium.otf");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  src:
+          local('Gilroy'),
+          url("./Resources/Radomir Tinkov - Gilroy-Bold.otf");
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,18 @@
+.App {
+  min-height: 100vh;
+
+  .content_container {
+    display: flex;
+    min-height: 100vh;
+
+    .timeline_container {
+      flex-grow: 1;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 200px;
+      border-left: 1px solid #ccc;
+    }
+  }
+}

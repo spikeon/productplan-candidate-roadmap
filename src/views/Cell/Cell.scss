@@ -1,0 +1,24 @@
+.cell {
+  width: calc((100% - 20px) / 12);
+  overflow-x: visible;
+  border-left: 1px solid #ccc;
+  height: 38px;
+  background-color: #fff;
+
+  .hover_bar {
+    display: none;
+    background: none !important;
+    border: 2px dashed #ccc;
+    @for $i from 1 through 12 {
+      &.width#{$i} {
+        width: $i * 100%;
+      }
+    }
+  }
+
+  &.active {
+    .hover_bar {
+      display: block;
+    }
+  }
+}

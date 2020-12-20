@@ -1,0 +1,40 @@
+.lane {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 4px;
+
+  .lane_header {
+    padding-left: 10px;
+    color: white;
+    background-color: #EF6031;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-weight: bold;
+    line-height: 30px;
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+  .rows {
+    padding-left: 10px;
+
+    .row {
+      display: flex;
+    }
+
+    .row:last-of-type {
+      display: none;
+    }
+
+    .row:first-of-type {
+      display: flex !important;
+    }
+
+    &.active .row:last-of-type {
+      display: flex !important;
+    }
+
+  }
+}
